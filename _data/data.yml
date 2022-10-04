@@ -9,10 +9,10 @@ sidebar:
     # Profile information
     name: João Lourenço Silva
     tagline: Deep Learning Researcher
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: joao.lourenco.silva@tecnico.ulisboa.pt
+    email: joao.lourenco.silva@tecnico.pt
     phone: +351 961 400 862
     timezone: 
     citizenship:
@@ -34,16 +34,12 @@ sidebar:
       info:
         - idiom: Portuguese
           level: Native
-
         - idiom: English
           level: C2
-
         - idiom: French
           level: B2
-
         - idiom: Spanish
           level: B1
-        
         - idiom: German
           level: A2       
 
@@ -62,77 +58,58 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Deep learning researcher and system administrator at [INESC-ID](https://www.inesc-id.pt/), mainly interested
+      in computer vision, medical image analytsis, and self-supervised learning. Former Introduction to Computer
+      Architecture and Computer Architecture teaching assistant at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/),
+      and former supervisor and system administrator at [SCDEEC](https://scdeec.tecnico.ulisboa.pt/). 
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Integrated MSc in Electrical and Computer Engineering
+        university: Instituto Superior Técnico, University of Lisbon
+        time: 2016 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          BSc and MSc average grades of 18 out of 20 and 19 of 20, respectively, 
+          having been present in the Roll of Excellence in every academical year.
+
+          MSc thesis on the application of deep learning to the segmentation of X-ray coronary 
+          angiography images, concluded with a final grade of 20 out of 20, and 
+          resulting in the publication of multiple [scientific papers](https://scholar.google.com/citations?user=lmiF5-wAAAAJ).
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: System Administrator
+        time: Mar 2021 - Present
+        company: INESC-ID, Lisbon
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Administrator of a cloud-hosted computation cluster with eight Tesla V100S GPUs, 196 CPU cores and 760 GB of RAM, 
+          used concurrently by circa 15 researchers, MSc and PhD students to train deep learning models. Responsible for:
+            - Setting up and maintaining a FreeIPA authentication server and an NFS server to allow seamless 
+            - Keeping cluster software up to date and consistent across machines, using 
+            - Helping students and researchers solve problems related to cluster usage and software installation
+      - role: Teaching Assistant
+        time: Feb 2020 - Jul 2021
+        company: Instituto Superior Técnico, Lisbon
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Teaching assistant in the Introduction to Computer Architecture (Fall 2020/2021) and
+          Computer Architecture (Spring 2019/2020 and Srping 2020/2021) courses. Responsible for:
+            - Preparing and grading lab assignments, tests, and exams
+            - Teaching laboratory and doubt clarification classes
+      - role: Supervisor and System Administrator
+        time: Jun 2019 - Nov 2021
+        company: SCDEEC, Lisbon
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Team of 12 students - 4 supervisors and 8 monitors - responsible for an IT lab with a network
+          composed of about 80 computers running Linux (CentOS/Ubuntu) and Windows, which receives an average
+          of 150 daily visits, and a maximum of around 300, in critical periods of the semester. Supervisors 
+          are responsible for:
+            - Managing the lab's network
+            - Installing software on the machines and keeping it up to date, through OS image cloning and Ansible scripts
+            - Setting up and maintaining internal servers, such as web, authentication, and NFS
+            - Maintaining the lab's website
+            - Writing and maintaining scripts for the automation of tasks such as software installation
+            - Developing back-office applications
+            - Selecting and training new monitors and supervisors
 projects:
     title: Projects
     intro: >

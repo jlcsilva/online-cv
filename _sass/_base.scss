@@ -44,6 +44,7 @@ p {
 }
 
 .sidebar-wrapper {
+  font-size: 13px;
   grid-column: span 3;
   order: 2;
   background: $theme-color;
@@ -59,8 +60,10 @@ p {
     color: #fff;
   }
   .name {
-    font-size: 32px;
-    font-weight: 900;
+    //font-size: 32px;
+    //font-weight: 900;
+    font-size: 20px;
+    font-weight: 790;
     margin-top: 0;
     margin-bottom: 10px;
   }
@@ -163,6 +166,8 @@ p {
   grid-column: span 7;
   background: #fff;
   padding: 60px;
+  text-align: justify;
+  text-justify: inter-word;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
