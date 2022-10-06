@@ -78,108 +78,151 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Deep Learning Researcher
+        time: Jan 2022 - Present
+        company: INESC-ID, Lisbon
+        details: |
+          Fill
       - role: System Administrator
         time: Mar 2021 - Present
         company: INESC-ID, Lisbon
         details: |
-          Administrator of a cloud-hosted computation cluster with eight Tesla V100S GPUs, 196 CPU cores and 760 GB of RAM, 
-          used concurrently by circa 15 researchers, MSc and PhD students to train deep learning models. Responsible for:
-            - Setting up and maintaining a FreeIPA authentication server and an NFS server to allow seamless 
-            - Keeping cluster software up to date and consistent across machines, using 
-            - Helping students and researchers solve problems related to cluster usage and software installation
+          Administrator of a cloud-hosted cluster with eight Tesla V100S GPUs, 196 CPU cores, and 760 GB of RAM, 
+          used concurrently by about 15 researchers and MSc and PhD students to train deep learning models. Responsible for:
+            - Setting up and maintaining a FreeIPA authentication server and an NFS server to allow seamless access to workspaces across machines
+            - Keeping cluster software up to date and consistent across machines
+            - Managing more than 10TB of datasets in both volume storage and S3 object storage
+            - Writing and maintaining Ansible and Terraform scripts to automate the above-mentioned tasks
+            - Helping users solve problems related to cluster usage and software installation
       - role: Teaching Assistant
         time: Feb 2020 - Jul 2021
         company: Instituto Superior Técnico, Lisbon
         details: |
           Teaching assistant in the Introduction to Computer Architecture (Fall 2020/2021) and
           Computer Architecture (Spring 2019/2020 and Srping 2020/2021) courses. Responsible for:
+            - Teaching lab and doubt clarification classes
             - Preparing and grading lab assignments, tests, and exams
-            - Teaching laboratory and doubt clarification classes
       - role: Supervisor and System Administrator
         time: Jun 2019 - Nov 2021
         company: SCDEEC, Lisbon
         details: |
           Team of 12 students - 4 supervisors and 8 monitors - responsible for an IT lab with a network
           composed of about 80 computers running Linux (CentOS/Ubuntu) and Windows, which receives an average
-          of 150 daily visits, and a maximum of around 300, in critical periods of the semester. Supervisors 
+          of 150 daily visits and a maximum of around 300, in critical periods of the semester. Supervisors 
           are responsible for:
             - Managing the lab's network
+            - Maintaining and updating the lab's website
             - Installing software on the machines and keeping it up to date, through OS image cloning and Ansible scripts
             - Setting up and maintaining internal servers, such as web, authentication, and NFS
-            - Maintaining the lab's website
-            - Writing and maintaining scripts for the automation of tasks such as software installation
-            - Developing back-office applications
+            - Writing and maintaining bash and Ansible scripts for the automation of tasks such as software installation and network management
+            - Developing back-office applications, mainly in Python and Django, to facilitate the work of the monitors and supervisors and 
+              automate some of their tasks
             - Selecting and training new monitors and supervisors
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - role: Summer Intern
+        time: Jul 2019 - Aug 2019
+        company: Milennium BCP, Oeiras
+        details: |
+          Summer intern at Milennium BCP's IT department. Responsible for refining the search engine of a geolocation app,
+          using Google Geolocation and TomTom Geocoding APIs. The goal of the app was to obtain precise coordinates of real estate
+          evaluated by the bank, aiming to develop quality control and future value prediction systems.
+      - role: Monitor
+        time: Sep 2017 - May 2018
+        company: SCDEEC, Lisbon
+        details: |
+          Member of a team of 8 monitors under the leadership of 4 supervisors, at a university IT lab. Responsible for:
+            - Welcoming students and assigning them a place/computer to work
+            - Helping users with any trouble they might have while using the computers
+            - Ensuring the proper functioning of the classes held in the lab, aiding professors whenever needed
+            - Monitoring the rooms, ensuring the respect of the rules by all the users
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    #intro: |
+    #  You can list your publications in this section. Lorem ipsum dolor sit
+    #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #  bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Using Soft Labels to Model Uncertainty in Medical Image Segmentation
+        link: https://link.springer.com/chapter/10.1007/978-3-031-09002-8_52
+        authors: João Lourenço-Silva & Arlindo L Oliveira
+        conference: International MICCAI Brainlesion Workshop, 2022
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: |
+          Development of Deep Learning Segmentation Models for Coronary X-Ray Angiography:
+          quality assessment by a new Global Segmentation Score and comparison with human performance
+        link: https://www.sciencedirect.com/science/article/pii/S0870255122001354
+        authors: Menezes, M.N., Lourenço-Silva, J., Silva, B., Rodrigues, O., Francisco, A.R.G., Ferreira, P.C., Oliveira, A.L., Pinto, F.J.
+        conference: Revista Portuguesa de Cardiologia, 2022
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Encoder-Decoder Architectures for Clinically Relevant Coronary Artery Segmentation
+        link: https://arxiv.org/abs/2106.11447
+        authors: Lourenço-Silva, J., Menezes, M.N, Rodrigues, T., Silva, B., Pinto, F.J., Oliveira, A.L.
+        conference: 11th International Conference on Computational Advances and Bio and Medical Sciences (ICCABS), 2021
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
+  groups:
+    - title: Deep Learning
+      toolset:
+        - name: Python
+          level: 95%
+        - name: PyTorch
+          level: 90%
+        - name: PyTorch Lightning
+          level: 90%
+        - name: Weights & Biases
+          level: 85%
+    - title: System Administration
+      toolset:
+        - name: Ansible
+          level: 90%
+        - name: Terraform
+          level: 80%
+        - name: FreeIPA
+          level: 67%
+        - name: Bash
+          level: 50%
+    - title: Web Development
+      toolset:
+        - name: Django
+          level: 95%
+        - name: TypeScript
+          level: 80%
+        - name: React
+          level: 70%
+        - name: JavaScript
+          level: 60%
+        - name: HTML & CSS
+          level: 60%
+    - title: Others  
+      toolset: 
+        - name: Java
+          level: 90%
+        - name: SQL
+          level: 90%
+        - name: C
+          level: 80%
+        - name: Matlab
+          level: 70%
+        - name: Assembly
+          level: 70%
+        - name: C++
+          level: 50%
+    #title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+    #  - name: Django
+    #    level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 #footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

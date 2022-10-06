@@ -10,9 +10,14 @@
     {{ skills.title }}
   </h2>
 
+  {% for group in skills.groups %}
+  <h4 class="level-title">
+    {{ group.title }}
+  </h4>
+
   <div class="skillset">
 
-    {% for skill in skills.toolset %}
+    {% for skill in group.toolset %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
@@ -26,6 +31,7 @@
     {% endfor %}
 
   </div>
+  {% endfor %} 
 
 </section><!--//skills-section-->
 {% endif %}
