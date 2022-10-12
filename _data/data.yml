@@ -17,7 +17,9 @@ sidebar:
     timezone: 
     citizenship:
     website: #blog.webjeda.com #do not add http://
-    linkedin: joão-lourenço-silva-911803196
+    linkedin: 
+      id: joão-lourenço-silva-911803196
+      name: LinkedIn
     xing: 
     github: jlcsilva
     telegram: # add your nickname without '@' sign
@@ -27,6 +29,9 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    google_scholar: 
+      id: lmiF5-wAAAAJ
+      name: Google Scholar
     pdf: TODO #http://www.africau.edu/images/default/sample.pdf
 
     languages:
@@ -59,7 +64,7 @@ career-profile:
     title: Career Profile
     summary: |
       Deep learning researcher and system administrator at [INESC-ID](https://www.inesc-id.pt/), mainly interested
-      in computer vision, medical image analytsis, and self-supervised learning. Former Introduction to Computer
+      in computer vision, medical image analysis, and self-supervised learning. Former Introduction to Computer
       Architecture and Computer Architecture teaching assistant at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/),
       and former supervisor and system administrator at [SCDEEC](https://scdeec.tecnico.ulisboa.pt/). 
 education:
@@ -67,14 +72,28 @@ education:
     info:
       - degree: Integrated MSc in Electrical and Computer Engineering
         university: Instituto Superior Técnico, University of Lisbon
-        time: 2016 - 2021
+        time: Sep 2016 - Oct 2021
         details: |
-          BSc and MSc average grades of 18 out of 20 and 19 of 20, respectively, 
-          having been present in the Roll of Excellence in every academical year.
+          BSc and MSc average grades of 18 and 19 out of 20, respectively, having been present in the Roll of Excellence in every academical year.
+          MSc thesis on the application of deep learning to the segmentation of X-ray coronary angiography images, with a final grade of 20 out of 20.
 
-          MSc thesis on the application of deep learning to the segmentation of X-ray coronary 
-          angiography images, concluded with a final grade of 20 out of 20, and 
-          resulting in the publication of multiple [scientific papers](https://scholar.google.com/citations?user=lmiF5-wAAAAJ).
+          Most relevant courses and grades: 
+        courses1: |
+          - Algorithms & Data Structures - 19
+          - Artificial Intelligence & Decision Systems - 20
+          - Computer Architecture - 18            
+          - Computer Networks & the Internet - 19
+          - Cryptography & Communications Security - 20
+          - Information Systems & Databases - 20
+          - Internet Based Systems Architecture - 19
+        courses2: |   
+          - Image Processing & Vision - 19
+          - Machine Learning - 18
+          - Objected Oriented Programming - 19
+          - Optimization & Algorithms - 19
+          - Parallel & Distributed Computing - 19
+          - Systems Programming - 19 
+          - Wireless & Mobile Networks - 18
 experiences:
     title: Experiences
     info:
@@ -82,7 +101,16 @@ experiences:
         time: Jan 2022 - Present
         company: INESC-ID, Lisbon
         details: |
-          Fill
+          Researcher in the [Machine Learning and Knowledge Discovery (MLKD)](https://mlkd.idss.inesc-id.pt/) group and in the 
+          [PRecise and Efficient Learning UsiNg Attention mechanisms (PRELUNA)](https://mlkd.idss.inesc-id.pt/p-r-e-l-u-n-a-home.html) project, 
+          both at INESC-ID and under the supervision of Professor Arlindo L. Oliveira. Most work developed has been in computer vision
+          and medical image segmentation. The most relevant frameworks and libraries used are [PyTorch](https://pytorch.org/), 
+          [PyTorch Lightning](https://www.pytorchlightning.ai/), [Weights & Biases](https://wandb.ai/site), and [MONAI](https://monai.io/).
+          
+          Regular participant and sometimes presenter in the 
+          [Lisbon Unit for Learning and Intelligent Systems (LUMLIS) reading group](https://lumlis.tecnico.ulisboa.pt/reading-group-inescid.html), 
+          a reading group focused on recent developments in deep learning for computer vision and natural language processing, with occasional
+          talks on other topics within machine and deep learning, such as reinforcement learning and consciousness.
       - role: System Administrator
         time: Mar 2021 - Present
         company: INESC-ID, Lisbon
@@ -92,28 +120,27 @@ experiences:
             - Setting up and maintaining a FreeIPA authentication server and an NFS server to allow seamless access to workspaces across machines
             - Keeping cluster software up to date and consistent across machines
             - Managing more than 10TB of datasets in both volume storage and S3 object storage
-            - Writing and maintaining Ansible and Terraform scripts to automate the above-mentioned tasks
+            - Writing Ansible and Terraform scripts to automate the above-mentioned tasks
             - Helping users solve problems related to cluster usage and software installation
       - role: Teaching Assistant
         time: Feb 2020 - Jul 2021
         company: Instituto Superior Técnico, Lisbon
         details: |
           Teaching assistant in the Introduction to Computer Architecture (Fall 2020/2021) and
-          Computer Architecture (Spring 2019/2020 and Srping 2020/2021) courses. Responsible for:
-            - Teaching lab and doubt clarification classes
-            - Preparing and grading lab assignments, tests, and exams
+          Computer Architecture (Spring 2019/2020 and Srping 2020/2021) courses. Responsible for teaching 
+          lab and doubt clarification classes, and preparing and grading lab assignments, tests, and exams.
       - role: Supervisor and System Administrator
         time: Jun 2019 - Nov 2021
-        company: SCDEEC, Lisbon
+        company: SCDEEC, Instituto Superior Técnico, Lisbon
         details: |
           Team of 12 students - 4 supervisors and 8 monitors - responsible for an IT lab with a network
           composed of about 80 computers running Linux (CentOS/Ubuntu) and Windows, which receives an average
           of 150 daily visits and a maximum of around 300, in critical periods of the semester. Supervisors 
           are responsible for:
-            - Managing the lab's network
-            - Maintaining and updating the lab's website
-            - Installing software on the machines and keeping it up to date, through OS image cloning and Ansible scripts
+            - Managing the lab's computer network network
+            - Maintaining and updating the lab's website, written in Laravel
             - Setting up and maintaining internal servers, such as web, authentication, and NFS
+            - Installing software on the machines and keeping it up to date, through OS image cloning and Ansible scripts            
             - Writing and maintaining bash and Ansible scripts for the automation of tasks such as software installation and network management
             - Developing back-office applications, mainly in Python and Django, to facilitate the work of the monitors and supervisors and 
               automate some of their tasks
@@ -127,13 +154,32 @@ experiences:
           evaluated by the bank, aiming to develop quality control and future value prediction systems.
       - role: Monitor
         time: Sep 2017 - May 2018
-        company: SCDEEC, Lisbon
+        company: SCDEEC, Instituto Superior Técnico, Lisbon
         details: |
           Member of a team of 8 monitors under the leadership of 4 supervisors, at a university IT lab. Responsible for:
             - Welcoming students and assigning them a place/computer to work
             - Helping users with any trouble they might have while using the computers
-            - Ensuring the proper functioning of the classes held in the lab, aiding professors whenever needed
+            - Ensuring the proper functioning of the classes held in the lab, assisting professors with technical issues whenever needed
             - Monitoring the rooms, ensuring the respect of the rules by all the users
+volunteering:
+    title: Volunteering
+    info:
+      - role: Instructor
+        time: Feb 2021 - Present
+        company: TreeTree2
+        details: |
+          [TreeTree2](https://www.treetree2.org/) is a non-profit organization whose primary goal is to help fulfill children's and 
+          teenagers' intellectual and creative potential. At TreeTree2, I worked as an instructor and course writer in two editions 
+          of the "Computer Architecture I" course, mentoring highly motivated and capable students aged 13 to 18 in learning the 
+          basics of digital systems and computer architecture.
+      - role: Mentor
+        time: Sep 2020 - Aug 2020
+        company: Instituto Superior Técnico, Lisbon
+        details: |
+          [NAPE](https://nape.tecnico.ulisboa.pt/en/), the Student Support Unit of Instituto Superior Técnico, is responsible for 
+          promoting new students' integration and disseminating the institute's degrees in the community, with a higher incidence 
+          at the secondary education level. As a mentor at NAPE, I was responsible for welcoming new national and international 
+          students, helping them adapt to life in Lisbon, and accelerating their integration into the school's community.
 #projects:
 #    title: Projects
 #    intro: >
@@ -182,16 +228,6 @@ skills:
           level: 90%
         - name: Weights & Biases
           level: 85%
-    - title: System Administration
-      toolset:
-        - name: Ansible
-          level: 90%
-        - name: Terraform
-          level: 80%
-        - name: FreeIPA
-          level: 67%
-        - name: Bash
-          level: 50%
     - title: Web Development
       toolset:
         - name: Django
@@ -204,6 +240,16 @@ skills:
           level: 60%
         - name: HTML & CSS
           level: 60%
+    - title: System Administration
+      toolset:
+        - name: Ansible
+          level: 90%
+        - name: Terraform
+          level: 80%
+        - name: FreeIPA
+          level: 67%
+        - name: Bash
+          level: 50%
     - title: Others  
       toolset: 
         - name: Java

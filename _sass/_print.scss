@@ -4,12 +4,27 @@
         size: A4;
     }
     body {
-       font-size: 12pt;
+      font-family: "Roboto", sans-serif;
+      color: $text-color-secondary;
+      background: $smoky-white;
+      font-size: 14px;
+      padding: 30px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+   
+    .avatar {
+      //used for profile image
+      max-width: 100px;
+      margin-bottom: 15px;
+      border: 0px solid #fff;
+      border-radius: 100%;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
 
     img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+         filter: grayscale(1);
+         -webkit-filter: greyscale(1);
     }
    .main-wrapper .time {
        float: right;
@@ -18,7 +33,7 @@
    }
     .sidebar-wrapper {
         position: static;
-        float: right;
+        float: left;
         width: 40%;
         -webkit-print-color-adjust: exact; 
     }

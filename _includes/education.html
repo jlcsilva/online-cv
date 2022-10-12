@@ -46,6 +46,21 @@
       </div><!--//details-->
       {% endif %}
 
+      {% if graduation.courses1 and graduation.courses2 %}
+      <div class="row">
+        {% if graduation.courses1 %}
+        <div class="column">{{ graduation.courses1 | markdownify }}</div>
+        {% endif %}
+        {% if graduation.courses2 %}
+        <div class="column">{{ graduation.courses2 | markdownify }}</div>
+        {% endif %}
+      </div>
+      {% else if graduation.courses1 %}
+      <div class="courses">
+        {{ graduation.courses1 | markdownify }}
+      </div>
+      {% endif %}
+
     </div><!--//item-->
     {% endfor %}
 
