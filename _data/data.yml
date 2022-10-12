@@ -32,7 +32,7 @@ sidebar:
     google_scholar: 
       id: lmiF5-wAAAAJ
       name: Google Scholar
-    pdf: TODO #http://www.africau.edu/images/default/sample.pdf
+    #pdf: TODO #http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
