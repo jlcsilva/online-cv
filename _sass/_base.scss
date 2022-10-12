@@ -41,7 +41,7 @@ p {
   background: $theme-color;
   max-width: 1000px;
   margin: 0 auto;
-  position: relative;
+  position: static;
   order: 2;
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
